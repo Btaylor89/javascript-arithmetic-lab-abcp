@@ -20,3 +20,12 @@ function makeInt(n) {
   parseInt('n' , 10)
  return n
 }
+function makeInt(n , b) {
+  parseInt('n' , 10)
+  parseInt('b' , 10)
+  return n * b
+}
+function preserveDecimal(n) {
+parseFloat('n')
+return n
+}
